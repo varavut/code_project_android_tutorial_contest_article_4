@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.vable.android.viewandlayoutlessons" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleInflateViewFromXmlActivity"
+            android:label="@string/title_activity_sample_inflate_view_from_xml" >
+        </activity>
+        <activity
+            android:name=".SampleCreateViewInJavaCodeActivity"
+            android:label="@string/title_activity_sample_create_view_in_java_code" >
+        </activity>
+        <activity
+            android:name=".MyFirstActivity"
+            android:label="@string/title_activity_my_first" >
+        </activity>
+        <activity
+            android:name=".TextViewExampleActivity"
+            android:label="@string/title_activity_text_view_example" >
+        </activity>
+        <activity
+            android:name=".EditTextExampleActivity"
+            android:label="@string/title_activity_edit_text_example" >
+        </activity>
+        <activity
+            android:name=".ImageViewExampleActivity"
+            android:label="@string/title_activity_image_view_example" >
+        </activity>
+        <activity
+            android:name=".ButtonExampleActivity"
+            android:label="@string/title_activity_button_example" >
+        </activity>
+        <activity
+            android:name=".CheckBoxExampleActivity"
+            android:label="@string/title_activity_check_box_example" >
+        </activity>
+    </application>
+
+</manifest>

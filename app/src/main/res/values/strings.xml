@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">View &amp; Layout Lessons</string>
+    <string name="hello_world">Hello John</string>
+    <string name="action_settings">Settings</string>
+    <string name="listitem_textview_default_activity_title">Activity Title</string>
+    <string name="listitem_textview_activity_class_name">Activity Class Name</string>
+    <string name="title_activity_sample_inflate_view_from_xml">Inflate a View from the XML file</string>
+    <string name="title_activity_sample_create_view_in_java_code">Create a View in the Java code</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_activity_not_found_message">Activity Not Found: %s</string>
+    <string name="title_activity_my_first">MyFirstActivity</string>
+    <string name="title_activity_text_view_example">TextViewExampleActivity</string>
+    <string name="title_activity_edit_text_example">EditTextExampleActivity</string>
+    <string name="title_activity_image_view_example">ImageViewExampleActivity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_button_example">ButtonExampleActivity</string>
+    <string name="title_activity_check_box_example">CheckBoxExampleActivity</string>
+
+</resources>
