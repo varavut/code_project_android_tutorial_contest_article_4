@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -51,6 +50,50 @@
         <activity
             android:name=".CheckBoxExampleActivity"
             android:label="@string/title_activity_check_box_example" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".LinearLayoutExampleActivity"
+            android:label="@string/title_activity_linear_layout_example" >
+        </activity>
+        <activity
+            android:name=".RelativeLayoutExampleActivity"
+            android:label="@string/title_activity_relative_layout_example" >
+        </activity>
+        <activity
+            android:name=".FrameLayoutExampleActivity"
+            android:label="@string/title_activity_frame_layout_example" >
+        </activity>
+        <activity
+            android:name=".OptionsMenuExampleActivity"
+            android:label="@string/title_activity_options_menu_example" >
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name=".RadioButtonExampleActivity"
+            android:label="@string/title_activity_radio_button_example" >
+        </activity>
+        <activity
+            android:name=".SwitchExampleActivity"
+            android:label="@string/title_activity_switch_example" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".UserListActivity"
+            android:label="@string/title_activity_user_list" >
         </activity>
     </application>
 

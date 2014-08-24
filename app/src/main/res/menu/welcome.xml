@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="me.vable.android.viewandlayoutlessons.WelcomeActivity" >
+<item android:id="@+id/menu_user_list"
+    android:title="User List"
+    android:orderInCategory="1"
+    app:showAsAction="never" />
+<item android:id="@+id/menu_profile"
+    android:title="My Profile"
+    android:orderInCategory="2"
+    app:showAsAction="never" />
+<item android:id="@+id/menu_logout"
+    android:title="Log Out"
+    android:orderInCategory="3"
+    app:showAsAction="never" />
+</menu>

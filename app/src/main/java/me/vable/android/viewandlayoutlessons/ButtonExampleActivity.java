@@ -20,7 +20,12 @@ public class ButtonExampleActivity extends ActionBarActivity {
     View.OnClickListener onClickListener= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(ButtonExampleActivity.this,"Button was clicked",Toast.LENGTH_SHORT).show();
+        Toast.makeText(ButtonExampleActivity.this,"Button was clicked",Toast.LENGTH_SHORT).show();
         }
     };
+
+    public void buttonClick(View view)
+    {
+        Toast.makeText(ButtonExampleActivity.this,"Invoke buttonClick() method",Toast.LENGTH_SHORT).show();
+    }
 }

@@ -11,6 +11,8 @@ public class User implements Serializable, Comparable<User> {
     private String email;
     private String profileImage;
     private Gender gender;
+    private boolean newsletterSubscribed;
+    private boolean allowedOtherEmail;
 
     public String getUsername() {
         return username;
@@ -66,5 +68,19 @@ public class User implements Serializable, Comparable<User> {
         MALE,FEMALE
     }
 
+    public boolean isNewsletterSubscribed() {
+        return newsletterSubscribed;
+    }
 
+    public void setNewsletterSubscribed(boolean newsletterSubscribed) {
+        this.newsletterSubscribed = newsletterSubscribed;
+    }
+
+    public boolean isAllowedOtherEmail() {
+        return allowedOtherEmail;
+    }
+
+    public void setAllowedOtherEmail(boolean allowedOtherEmail) {
+        this.allowedOtherEmail = allowedOtherEmail;
+    }
 }

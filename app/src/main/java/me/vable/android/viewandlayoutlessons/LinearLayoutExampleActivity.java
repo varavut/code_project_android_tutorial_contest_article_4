@@ -6,11 +6,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MyFirstActivity extends ActionBarActivity {
+public class LinearLayoutExampleActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_first);
+        setContentView(R.layout.activity_linear_layout_example);
     }
 }

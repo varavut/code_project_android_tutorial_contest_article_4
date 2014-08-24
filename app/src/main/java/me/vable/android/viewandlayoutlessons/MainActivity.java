@@ -24,6 +24,10 @@ public class MainActivity extends Activity {
 
 
         List<ActivityData> activityDataList = new ArrayList<ActivityData>();//List of the ActivityData instance, put you ActivityData here
+        activityDataList.add(new ActivityData("Login",LoginActivity.class));
+        activityDataList.add(new ActivityData("Welcome",WelcomeActivity.class));
+        activityDataList.add(new ActivityData("Sign up Activity",SignUpActivity.class));
+        activityDataList.add(new ActivityData("Profile Activity",ProfileActivity.class));
         activityDataList.add(new ActivityData(getString(R.string.title_activity_sample_inflate_view_from_xml),SampleInflateViewFromXmlActivity.class));//add the ActivityData to the List
         activityDataList.add(new ActivityData(getString(R.string.title_activity_sample_create_view_in_java_code),SampleCreateViewInJavaCodeActivity.class));
         activityDataList.add(new ActivityData("My Fist Activity",MyFirstActivity.class));
@@ -32,6 +36,11 @@ public class MainActivity extends Activity {
         activityDataList.add(new ActivityData("ImageView Example",ImageViewExampleActivity.class));
         activityDataList.add(new ActivityData("Button Example",ButtonExampleActivity.class));
         activityDataList.add(new ActivityData("CheckBox Example",CheckBoxExampleActivity.class));
+        activityDataList.add(new ActivityData("LinearLayout  Example",LinearLayoutExampleActivity.class));
+        activityDataList.add(new ActivityData("RelativeLayout  Example",RelativeLayoutExampleActivity.class));
+        activityDataList.add(new ActivityData("Options Menu  Example",OptionsMenuExampleActivity.class));
+        activityDataList.add(new ActivityData("Radio Button  Example",RadioButtonExampleActivity.class));
+        activityDataList.add(new ActivityData("Switch  Example",SwitchExampleActivity.class));
 
         ActivityDataListAdapter activityDataListAdapter = new ActivityDataListAdapter(this,activityDataList);//create the Data Adapter for ListView
 

@@ -17,5 +17,16 @@
     <string name="title_activity_button">ButtonActivity</string>
     <string name="title_activity_button_example">ButtonExampleActivity</string>
     <string name="title_activity_check_box_example">CheckBoxExampleActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_linear_layout_example">LinearLayoutExampleActivity</string>
+    <string name="title_activity_relative_layout_example">RelativeLayoutExampleActivity</string>
+    <string name="title_activity_frame_layout_example">FrameLayoutExampleActivity</string>
+    <string name="title_activity_options_menu_example">OptionsMenuExampleActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_radio_button_example">RadioButtonExampleActivity</string>
+    <string name="title_activity_switch_example">SwitchExampleActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_user_list">UserListActivity</string>
 
 </resources>

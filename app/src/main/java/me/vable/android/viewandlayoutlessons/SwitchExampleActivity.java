@@ -6,11 +6,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MyFirstActivity extends ActionBarActivity {
+public class SwitchExampleActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_first);
+        setContentView(R.layout.activity_switch_example);
     }
+
 }
